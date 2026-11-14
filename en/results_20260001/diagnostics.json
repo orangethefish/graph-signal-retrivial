@@ -1,0 +1,63 @@
+{
+  "representative_mssv": "20260001",
+  "group_mssvs": [
+    "20260001",
+    "20260002",
+    "20260003",
+    "20260004",
+    "20260005",
+    "20260006",
+    "20260007"
+  ],
+  "assigned_case_id": "20260001",
+  "dataset_sha256": "581382a11aad6e6ba4ebed6e45086ae790e6c1c06091ccaa22f6621b2c4316a3",
+  "node_count": 32,
+  "method": "quadratic",
+  "smoothing": 0.1,
+  "huber_factor": null,
+  "huber_delta": null,
+  "validation_rmse_noisy_observations": 0.7309479012169016,
+  "validation_mae_noisy_observations": 0.5822502463471791,
+  "ground_truth_rmse": null,
+  "search_endpoint": false,
+  "all_best_models": [
+    {
+      "method": "neighbors",
+      "smoothing": null,
+      "factor": null,
+      "rmse": 0.735079984107116,
+      "mae": 0.5945850492498622,
+      "converged_folds": 32,
+      "max_iterations": 0,
+      "boundary": false
+    },
+    {
+      "method": "quadratic",
+      "smoothing": 0.1,
+      "factor": null,
+      "rmse": 0.7309479012169016,
+      "mae": 0.5822502463471791,
+      "converged_folds": 32,
+      "max_iterations": 1,
+      "boundary": false
+    },
+    {
+      "method": "huber",
+      "smoothing": 0.1,
+      "factor": 1.5,
+      "rmse": 0.7309479012169016,
+      "mae": 0.5822502463471791,
+      "converged_folds": 32,
+      "max_iterations": 1,
+      "boundary": false
+    }
+  ],
+  "converged": true,
+  "linear_solves": 1,
+  "scaled_gradient": 9.853229343548264e-16,
+  "objective_history": [
+    2.669536082746181
+  ],
+  "numpy_version": "2.5.4",
+  "networkx_version": "3.7"
+}
